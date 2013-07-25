@@ -49,7 +49,7 @@ common_host_cflags += -DMISSING_MREMAP
 common_host_ldlibs_libiconv := -liconv
 else
 ifeq ($(HOST_OS)-$(HOST_ARCH),linux-x86)
-HAVE_LIBBFD := true
+HAVE_LIBBFD := false
 endif
 endif
 endif
